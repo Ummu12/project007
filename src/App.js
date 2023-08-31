@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button, Alert, ProgressBar } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./components/style.css";
+import "./component/style.css";
 
 function App() {
   const [now, setNow] = useState(0);
